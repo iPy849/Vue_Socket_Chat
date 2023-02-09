@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer app_container {
+  body {
+    @apply bg-emerald-900 m-0;
+  }
+
+  #app {
+    @apply max-w-lg min-h-screen h-full bg-emerald-300 m-auto;
+  }
+}
